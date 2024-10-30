@@ -22,13 +22,33 @@
     border-radius: 10px;
 }
 
+.SrcCode {
+    padding-left: 0.2em;
+    border-radius: 10px;
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+
 body {
     background-color: var(--bg-color);
-    font-family:Arial, Helvetica, serif;
+    font-family:Arial, sans-serif;
 }
 div {
     background-color: var(--div-bg-color);
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 10px;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    overflow-x: auto;
+    border-radius: 5px;
+    white-space: pre-wrap;
+}
+code {
+    font-family: monospace;
+    font-size: 1em;
+    color: #333;
 }
