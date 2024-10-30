@@ -1,1 +1,1 @@
-# Phy.Com.-Infrared-Arduino-Speedometer
+# Phy.Com.-Ultrasonic-Arduino-Speedometer
