@@ -52,3 +52,19 @@ code {
     font-size: 1em;
     color: #333;
 }
+
+.Component {
+    padding: 10px;
+    border-radius: 24px;
+    color: var(--white-color);
+}
+
+.Component img{
+    width: 300px;
+}
+
+.Video {
+    border-radius: 24px;
+    padding: 10px;
+    text-align: center;
+}

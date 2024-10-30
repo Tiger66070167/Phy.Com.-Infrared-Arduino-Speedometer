@@ -17,14 +17,26 @@
         <hr>
         <p>&emsp;&emsp;โปรเจคนี้นำเสนอการออกแบบและพัฒนาอุปกรณ์สำหรับการวัดความเร็วของวัตถุ โดยใช้เซ็นเซอร์ Ultrasonic และเซ็นเซอร์ Gyroscope ทำงานร่วมกับบอร์ด Arduino R4 WiFi โดยเซ็นเซอร์ Ultrasonic ใช้ในการวัดระยะทางระหว่างวัตถุและจุดเริ่มต้น ในขณะที่เซ็นเซอร์ Gyroscope ทำหน้าที่วัดการเคลื่อนที่เชิงมุมของวัตถุ ทั้งสองเซ็นเซอร์จะทำงานร่วมกันเพื่อคำนวณค่าความเร็วของวัตถุ ข้อมูลที่ได้จะถูกประมวลผลผ่านบอร์ด Arduino และส่งไปแสดงผลบนจอ LCD เพื่อให้ผู้ใช้สามารถอ่านค่าได้แบบเรียลไทม์ การออกแบบนี้มีประโยชน์สำหรับการศึกษาการเคลื่อนที่ของวัตถุ และสามารถนำไปประยุกต์ใช้ในงานด้านการวิจัยทางฟิสิกส์และวิศวกรรม ตลอดจนการพัฒนาระบบควบคุมอัตโนมัติ</p>
     </div>
-
-
+    <div class="Component">
+        <h1>Components</h1>
+        <img src="https://cdn.sparkfun.com/assets/parts/1/3/5/0/8/15569-Ultrasonic_Distance_Sensor_-_HC-SR04-01a.jpg" alt="Ultrasonic sensor"><br>
+        <h3>Ultrasonic sensor</h3>
+        <p>&emsp;เซ็นเซอร์วัดระยะทางโดยใช้คลื่นเสียงอัลตราโซนิก เหมาะสำหรับการวัดระยะห่างจากวัตถุ โดยจะส่งคลื่นเสียงความถี่สูงไปที่วัตถุ แล้วจับเวลาที่เสียงสะท้อนกลับมายังเซ็นเซอร์ มีระยะการวัดประมาณ 2-400 เซนติเมตร ความแม่นยำอยู่ที่ประมาณ ±3 มิลลิเมตร และใช้งานร่วมกับไมโครคอนโทรลเลอร์ เช่น Arduino ได้ง่าย</p>
+        <br>
+        <img src="https://static.wixstatic.com/media/5a3095_a90c1541ec294160a25613cb072500f4~mv2.png/v1/fill/w_480,h_316,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5a3095_a90c1541ec294160a25613cb072500f4~mv2.png" alt="GY512 gyroscope sensor"><br>
+        <h3>GY512 Gyroscope sensor</h3>
+        <p>&emsp;โมดูลที่ใช้เซ็นเซอร์ MPU-6050 ในการวัดการเคลื่อนไหวและตำแหน่งใน 6 แกน โดยสามารถวัดได้ทั้งการเร่งความเร็ว (Accelerometer) และการหมุน (Gyroscope) ของวัตถุที่ติดตั้งอยู่</p>
+        <br>
+        <img src="https://www.aranacorp.com/wp-content/uploads/screen-lcd-16x2.jpg" alt="lcd"><br>
+        <h3>LCD 16×2</h3>
+        <p>&emsp;จอ LCD ขนาด 16x2 คือจอแสดงผลที่มี 16 ตัวอักษรต่อบรรทัด และมีทั้งหมด 2 บรรทัด ซึ่งสามารถใช้แสดงข้อมูลที่เป็นตัวอักษรหรือข้อความสั้นๆ ได้ เหมาะสำหรับงานอิเล็กทรอนิกส์และโปรเจกต์ไมโครคอนโทรลเลอร์ เช่น Arduino หรือ Raspberry Pi</p>
+    </div>
     <div class="SrcCode">
+        <p style="color: white;">Source code</p>
         <pre><code id="codeDisplay">Loading...</code></pre>
     </div>
     <div class="Video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZ5LpwO-An4?si=K17A1mcHTm7PvQqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    
+        <iframe height="360" width="560" src="https://www.youtube.com/embed/ZZ5LpwO-An4?si=K17A1mcHTm7PvQqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 </body>
 </html>
